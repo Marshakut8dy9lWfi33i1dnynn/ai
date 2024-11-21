@@ -1,0 +1,19 @@
+$schema: ../../../schema/mcp-agent.config.schema.json
+
+execution_engine: asyncio
+logger:
+  type: console
+  level: error
+  path: "./mnemo_agent.log"
+
+mcp:
+  servers:
+    mnemo_mcp_root:
+      type: "mnemo_mcp_root"
+      command: "uv"
+      args: ["run", "../mnemo_mcp_root_test/root_test_server.py"]
+
+openai:
+  # Secrets (API keys, etc.) are stored in an mnemo_agent.secrets.yaml file
+  default_model: o3-mini
+  reasoning_effort: low
