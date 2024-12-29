@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+global-exclude *.pyc
+
+recursive-include mnemo-agentic *.py
+recursive-include tests *.py
