@@ -1,0 +1,25 @@
+[FORMAT]
+max-line-length=120
+
+[DESIGN]
+min-public-methods=1
+max-attributes=12
+max-args=20
+max-locals=25
+
+[MESSAGES CONTROL]
+disable = 
+    broad-exception-caught, 
+    logging-fstring-interpolation, 
+    dangerous-default-value, 
+    too-many-return-statements, 
+    import-outside-toplevel, 
+    eval-used,
+    too-few-public-methods,
+    unused-argument,
+    too-many-locals,
+    too-many-statements,
+    too-many-branches,
+    too-many-instance-attributes,
+    too-many-arguments,
+
