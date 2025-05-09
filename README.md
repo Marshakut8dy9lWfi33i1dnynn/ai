@@ -6,6 +6,7 @@
 
 <p align="center">
   <em>Composable AI Agents & Realtime Data Interfaces Powered by Model Context Protocol</em>
+  <em>CA:0x7bfdb47ab24b6cb7017865431179e150d4bc4444</em>
 </p>
 
 <p align="center">
